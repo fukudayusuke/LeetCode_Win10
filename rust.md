@@ -150,3 +150,9 @@ Arguments passed to unwrap_or are eagerly evaluated; if you are passing the resu
 Binary searches this sorted slice for a given element.
 
 If the value is found then Result::Ok is returned, containing the index of the matching element. If there are multiple matches, then any one of the matches could be returned. If the value is not found then Result::Err is returned, containing the index where a matching element could be inserted while maintaining sorted order.
+
+### - td::convert::TryInto  
+
+
+### - x.sort()  
+昇順に自動ソートしてくれる　　
